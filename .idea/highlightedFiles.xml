@@ -6,6 +6,7 @@
       <node color="4" path="$PROJECT_DIR$/BACKEND" />
       <node color="4" path="$PROJECT_DIR$/BACKEND/package.json" />
       <node color="9" path="$PROJECT_DIR$/FRONTEND" />
+      <node color="7" path="$PROJECT_DIR$/FRONTEND/src/store" />
     </files>
     <colors>
       <color id="1" value="#4f060d" name="Color 1" enabled="true" />
@@ -16,7 +17,8 @@
       <color id="6" value="#171a34" name="Color 6" enabled="true" />
       <color id="7" value="#311333" name="Color 7" enabled="true" />
       <color id="8" value="#1e1e1e" name="Color 8" enabled="true" />
-      <color id="9" value="#260b13e5" name="Color 9" enabled="true" />
+      <color id="9" value="#3f1625a0" name="Color 9" enabled="true" />
+      <color id="10" value="#11100bf9" name="Color 10" enabled="true" />
     </colors>
     <option name="marksForCollapsedHighlights" value="Dots" />
   </component>
