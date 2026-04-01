@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import axios from "axios";
+import {useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom";
 import {BACKEND_URL} from "../../../constants.js";
-import {useNavigate} from "react-router";
 import {fetchUser} from "../store/AuthSlice.js";
 import {useDispatch} from "react-redux";
 
@@ -10,8 +11,9 @@ function Login() {
         option: "",
         password: "",
     });
+
     const navigate=useNavigate();
-    const dispatch=useDispatch();
+const dispatch=useDispatch();
 
     const handleChange = (key) => (e) => {
         setFormData((prev) => ({
@@ -23,7 +25,14 @@ function Login() {
     async function handleSubmit(e) {
         e.preventDefault();
         try {
-            const result = await axios.post(`${BACKEND_URL}/api/auth/login`, formData, {withCredentials: true});
+            const{option,password}=formData
+
+            const result = await axios.post(`${BACKEND_URL}/api/auth/login`,
+                {option,password},
+                {withCredentials: true});
+            console.log("loginPageData",result.data)
+            console.log(result.status);
+
 
             if(result.status === 200){
                 await dispatch(fetchUser());
@@ -31,8 +40,11 @@ function Login() {
             };
         } catch (e) {
             console.log(e);
+
         }
     }
+
+
 
     return (
         <div className="min-h-screen w-full flex items-center justify-center bg-[#191919]">
@@ -76,9 +88,9 @@ function Login() {
 
                 <p className="text-center text-gray-400 mt-4">
                     Want to have an account?
-                    <span className="text-[#e1024d]/90 font-medium cursor-pointer ml-1 hover:underline">
+                    <Link to={"/register"} className="text-[#e1024d]/90 font-medium cursor-pointer ml-1 hover:underline">
             Signup
-          </span>
+          </Link>
                 </p>
             </div>
         </div>

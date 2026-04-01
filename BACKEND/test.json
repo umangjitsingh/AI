@@ -1,0 +1,35 @@
+{
+  "candidateName": "Alex Thompson",
+  "jobTitle": "Pakora Cook",
+  "summary": "Alex is an experienced cook with over 5 years of professional kitchen experience, currently working at a high-end hotel. While his resume reflects a Western bistro and cafe background, his current role at the Taj Hotel and the job requirement for frying pakoras suggest a transition into specialized Indian snack preparation.",
+  "technicalQuestions": [
+    "What is the ideal oil temperature for frying pakoras to ensure they are crispy on the outside and cooked through on the inside?",
+    "Assess the candidate's understanding of heat management and frying techniques.",
+    "The ideal temperature is typically between 350°F and 375°F (175°C-190°C). If the oil is too cold, they become greasy; if too hot, they burn on the outside.",
+    "How do you ensure the batter consistency remains consistent when preparing large batches of pakoras throughout a shift?",
+    "Evaluate the candidate's knowledge of batter chemistry and moisture control in vegetables.",
+    "I monitor the water release from vegetables like onions and spinach, adjusting the gram flour (besan) or adding a touch of rice flour to maintain the desired thickness."
+  ],
+  "behavioralQuestions": [
+    "Describe a time you had to handle a high-volume rush while maintaining strict safety standards around hot oil.",
+    "Check for safety consciousness and the ability to work under pressure in a high-risk environment.",
+    "At Maple Leaf Bistro, I managed the fry station during peak hours by organizing my workspace, using timers, and ensuring no water or moisture entered the oil area to prevent splattering.",
+    "How do you handle a situation where a batch of food does not meet the restaurant's quality standards?",
+    "Assess commitment to quality and honesty.",
+    "I would immediately pull the batch, identify the cause (e.g., oil temperature drop), inform the lead, and restart to ensure the customer receives the best product."
+  ],
+  "skillGaps": [
+    "Specific knowledge of diverse Indian spice profiles for pakora variations",
+    "High",
+    "Experience with commercial-scale deep frying equipment for specialized snacks",
+    "Medium"
+  ],
+  "preparationPlan": [
+    "1",
+    "Technical Mastery",
+    "Practice different batter ratios and frying times for various vegetable types (onion, potato, cauliflower).",
+    "2",
+    "Kitchen Safety",
+    "Review deep-fryer maintenance and safety protocols specifically for high-volume snack production."
+  ]
+}

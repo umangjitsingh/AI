@@ -1,9 +1,11 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import axios from "axios";
+import {BACKEND_URL} from "../../../constants.js";
+
 
 export const fetchUser = createAsyncThunk("auth/fetchUser", async () => {
     const result = await axios.get(`${BACKEND_URL}/api/auth/get-me`, {withCredentials: true});
-    console.log("result", result);
+    console.log("AuthSliceresult", result.data);
     return result.data.user;
 })
 

@@ -24,12 +24,9 @@ async function registerController(req, res) {
 
         const token = generateToken(user._id);
 
-        res.cookie("token", token, {
-            httpOnly: true,
-            secure: false,     // true in production
-            sameSite: "lax",   // "none" only with HTTPS
-            maxAge: 24 * 60 * 60 * 1000,
-        });
+        res.cookie("token", token);
+
+
 
         return res.status(201).json({message: "User registered successfully", user});
     } catch (e) {
@@ -75,12 +72,9 @@ async function loginController(req, res) {
 
         const token = generateToken(user._id);
 
-        res.cookie("token", token, {
-            httpOnly: true,
-            secure: false,
-            sameSite: "lax",
-            maxAge: 24 * 60 * 60 * 1000,
-        });
+        res.cookie("token", token);
+
+
 
         return res.status(200).json({ message: "Login successfully" });
 
@@ -96,7 +90,9 @@ async function logoutController(req, res) {
         await blacklistedTokenModel.create({token});
 
 
-        res.clearCookie("token");
+        res.cookie("token", token);
+
+
 
         return res.status(200).json({message: "Logged out successfully"});
     } catch (e) {
@@ -108,7 +104,7 @@ async function getMe(req, res) {
     try {
         const user = req.user;
         console.log("user",user)
-        return res.status(200).json(user);
+        return res.status(200).json({user});
 
     } catch (err) {
         return res.status(400).json({

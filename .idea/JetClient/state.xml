@@ -8,25 +8,65 @@
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &quot;username&quot;: &quot;umangjit&quot;,&#10; &#10;  password: &quot;umangjit&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;username&quot;: &quot;kuldeep&quot;,&#10; &quot;email&quot;: &quot;kuldeept@gmail.com&quot;,&#10;  &quot;password&quot;:&quot;kuldeep&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
               <option name="id" value="42ac537d-67d0-4333-bf57-150e25de677c" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="name" value="resisterUser" />
-              <option name="url" value="http://localhost:8080/api/auth/logout" />
+              <option name="url" value="http://localhost:8080/api/auth/register" />
             </requestState>
             <requestState>
               <option name="body">
                 <bodyState>
-                  <option name="raw" value="{&#10;  &#10;  &quot;email&quot;: &quot;hardik&quot;,&#10;  password: &quot;hardik&quot;&#10;}" />
+                  <option name="raw" value="{&#10;  &quot;option&quot;: &quot;kuldeep&quot;,&#10;  &quot;password&quot;:&quot;kuldeep&quot;&#10;}" />
                   <option name="type" value="JSON" />
                 </bodyState>
               </option>
               <option name="id" value="8364a2a3-64ed-4263-9d5f-316ea269e99b" />
-              <option name="method" value="GET" />
+              <option name="method" value="POST" />
               <option name="name" value="login" />
+              <option name="url" value="http://localhost:8080/api/auth/login" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="resume" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="selfDescription" />
+                        <option name="value" value="i am a cook at taj hotel" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="jobDescription" />
+                        <option name="value" value="pakore talda" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
+              <option name="method" value="POST" />
+              <option name="name" value="interview report generator" />
+              <option name="url" value="http://localhost:8080/api/interview" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;option&quot;: &quot;kuldeep&quot;,&#10;  &quot;password&quot;:&quot;kuldeep&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="ac0ba55b-08e0-4423-98af-2689c1eab4ec" />
+              <option name="method" value="GET" />
+              <option name="name" value="get-me" />
               <option name="url" value="http://localhost:8080/api/auth/get-me" />
             </requestState>
           </list>

@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
+import {useNavigate} from "react-router-dom";
+import {Link} from "react-router-dom"
 import {BACKEND_URL} from "../../../constants.js";
-import {useNavigate} from "react-router";
 
 function Register() {
     const [formData, setFormData] = useState({
@@ -22,9 +23,13 @@ function Register() {
     async function handleSubmit(e) {
         e.preventDefault();
         try {
-            const result = await axios.post(`${BACKEND_URL}/api/auth/register`, formData,{withCredentials:true});
+            const {username, email, password} = formData;
+            const result = await axios.post(`${BACKEND_URL}/api/auth/register`,
+                {username,email,password},
+                {withCredentials:true});
+            console.log("resisterPageData",result.data)
 
-            console.log(result.status);
+
             if(result.status === 201){
                 navigate('/login');
             };
@@ -84,9 +89,9 @@ function Register() {
 
                 <p className="text-center text-gray-400 mt-4">
                     Already have an account?
-                    <span className="text-[#e1024d]/90 font-medium cursor-pointer ml-1 hover:underline">
+                    <Link to={"/login"} className="text-[#e1024d]/90 font-medium cursor-pointer ml-1 hover:underline" >
             Login
-          </span>
+          </Link>
                 </p>
             </div>
         </div>
