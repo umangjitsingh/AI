@@ -32,6 +32,10 @@ function App() {
                     element: <ProtectedRoute><Dashboard/></ProtectedRoute>,
                     path: "/dashboard",
                 },
+                {
+                    element: <ProtectedRoute><Interview/></ProtectedRoute>,
+                    path: "/interview/:interviewId",
+                },
             ]
         }
     ])

@@ -38,10 +38,17 @@ export const generateInterviewReportController = async (req, res) => {
 
         const interviewReport=  await interviewReportModel.create({
             user: req.user.id,
+            candidateName: responseByAI.title || "Candidate",
+            jobTitle: responseByAI.title || "Software Developer",
             resume: resumeContent,
             selfDescription,
             jobDescription,
-            ...responseByAI,
+            matchScore: responseByAI.matchScore,
+            summary: `Interview report for ${responseByAI.title}`,
+            technicalQuestions: responseByAI.technicalQuestions,
+            behavioralQuestions: responseByAI.behavioralQuestions,
+            skillGaps: responseByAI.skillGaps,
+            preparationPlan: responseByAI.preparationPlan,
         });
 
         return res.status(201).json({
