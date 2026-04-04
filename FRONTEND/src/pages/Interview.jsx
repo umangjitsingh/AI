@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import {Link} from "react-router-dom";
 
 const Interview = () => {
     const interviewData = useSelector(state => state?.interview);
@@ -28,18 +29,7 @@ const Interview = () => {
         );
     }
 
-    const getSeverityColor = (severity) => {
-        switch (severity) {
-            case 'low':
-                return 'bg-green-500/20 text-green-400 border-green-500/30'
-            case 'medium':
-                return 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30'
-            case 'high':
-                return 'bg-red-500/20 text-red-400 border-red-500/30'
-            default:
-                return 'bg-gray-500/20 text-gray-400 border-gray-500/30'
-        }
-    }
+
 
     const getScoreColor = (score) => {
         if (score >= 80) return 'text-green-400'
@@ -75,12 +65,15 @@ const Interview = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="flex items-center gap-6">
+                        <div className="flex flex-col items-center gap-6">
                             <div className="text-right">
                                 <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider font-medium">Overall Score</p>
                                 <p className={`text-4xl sm:text-5xl font-black ${getScoreColor(data?.matchScore)} drop-shadow-lg`}>
                                     {data?.matchScore}%
                                 </p>
+                            </div>
+                            <div className="w-60 h-14  hover:bg-linear-to-br hover:from-gray-800/90 hover:to-gray-900/80 border border-purple-600 rounded-full flex items-center justify-center ">
+                                <Link to={"/all-interviews"}>All Reports</Link>
                             </div>
                         </div>
                     </div>

@@ -61,32 +61,35 @@ export const generateInterviewReportController = async (req, res) => {
     }
 };
 
-// export const getInterviewController = async (req, res) => {
-//     try {
-//         const interviewReports = await interviewReportModel.find({user: req.user.id});
-//         return res.status(200).json({
-//             message: "Interview reports fetched successfully",
-//             interviewReports
-//         });
-//     } catch (e) {
-//         return res.status(500).json({
-//             message: `Server error fetching interview reports: ${e}`,
-//         });
-//     }
-// }
+export const getClickedInterviewController = async (req, res) => {
 
-// export const getAllInterviewReportsController = async (req, res) => {
-//     try {
-//         const interviewReports = await interviewReportModel.find({user: req.user.id}).sort({createdAt: -1})
-//             .select("-resume -selfDescription -jobDescription -technicalQuestion -behavioralQuestion -skillGap -preparationPlan -skillGap " +
-//                 "-preparationPlan -__v");
-//         return res.status(200).json({
-//             message: "Interview reports fetched successfully",
-//             interviewReports
-//         });
-//     } catch (e) {
-//         return res.status(500).json({
-//             message: `Server error fetching interview reports: ${e}`,
-//         });
-//     }
-// }
+    console.log(req.params.interviewId)
+
+    try {
+    const singleInterviewReport = await interviewReportModel.findById({_id: req.params.interviewId});
+        return res.status(200).json({
+            message: `Interview report for ${singleInterviewReport?.personName} fetched successfully`,
+            singleInterviewReport
+        });
+    } catch (e) {
+        return res.status(500).json({
+            message: `Server error fetching interview reports: ${e}`,
+        });
+    }
+}
+
+export const getAllInterviewReportsController = async (req, res) => {
+    try {
+        const interviewReports = await interviewReportModel.find({user: req.user.id}).sort({createdAt: -1})
+            .select("-resume -selfDescription -jobDescription -technicalQuestion -behavioralQuestion -skillGap -preparationPlan -skillGap " +
+                "-preparationPlan -__v");
+        return res.status(200).json({
+            message: "Interview reports fetched successfully",
+            interviewReports
+        });
+    } catch (e) {
+        return res.status(500).json({
+            message: `Server error fetching interview reports: ${e}`,
+        });
+    }
+}

@@ -64,8 +64,11 @@ function parseAndFixResponse(responseText) {
             const keys = Object.keys(item);
             const values = Object.values(item).map(v => String(v).toLowerCase().trim());
             
-            // Detect scrambled pattern: values contain field names
-            if (values.includes('question') || values.includes('intention') || values.includes('answer')) {
+            // Detect scrambled pattern: values contain field names OR keys are numbers but values are field names
+            const hasScrambledValues = values.includes('question') || values.includes('intention') || values.includes('answer');
+            const hasFieldNamesAsKeys = keys.some(k => ['question', 'intention', 'answer'].includes(k.toLowerCase()));
+            
+            if (hasScrambledValues && !hasFieldNamesAsKeys) {
                 // Try to reconstruct based on typical content patterns
                 const fixed = {
                     question: '',
@@ -77,31 +80,32 @@ function parseAndFixResponse(responseText) {
                     const strValue = String(value);
                     const lowerValue = strValue.toLowerCase().trim();
                     
-                    // Match based on content patterns
+                    // Skip if value is exactly a field name
                     if (lowerValue === 'question' || lowerValue === 'intention' || lowerValue === 'answer') {
-                        // This is a placeholder, skip it
-
-                    } else if (strValue.includes('?') || strValue.toLowerCase().includes('how') || 
-                               strValue.toLowerCase().includes('what') || strValue.toLowerCase().includes('describe')) {
+                        continue;
+                    }
+                    
+                    // Match based on content patterns
+                    if (strValue.includes('?') || strValue.toLowerCase().includes('how do you') || 
+                        strValue.toLowerCase().includes('what is') || strValue.toLowerCase().includes('describe') ||
+                        strValue.toLowerCase().includes('can you') || strValue.toLowerCase().includes('tell me')) {
                         // Looks like a question
                         if (!fixed.question) fixed.question = strValue;
-                        else if (!fixed.intention) fixed.intention = strValue;
                     } else if (strValue.toLowerCase().includes('assess') || strValue.toLowerCase().includes('evaluate') ||
-                               strValue.toLowerCase().includes('understand') || strValue.toLowerCase().includes('knowledge')) {
+                               strValue.toLowerCase().includes('understand') || strValue.toLowerCase().includes('knowledge') ||
+                               strValue.toLowerCase().includes('determine')) {
                         // Looks like an intention
                         if (!fixed.intention) fixed.intention = strValue;
-                        else if (!fixed.answer) fixed.answer = strValue;
                     } else {
                         // Likely an answer/explanation
                         if (!fixed.answer) fixed.answer = strValue;
-                        else if (!fixed.question) fixed.question = strValue;
                     }
                 }
                 
                 return fixed;
             }
             
-            // Not scrambled, return as-is
+            // Not scrambled or already correct, return as-is with defaults
             return {
                 question: item.question || '',
                 intention: item.intention || '',
@@ -119,9 +123,13 @@ function parseAndFixResponse(responseText) {
             if (!item || typeof item !== 'object') return null;
             
             const values = Object.values(item).map(v => String(v).toLowerCase().trim());
+            const keys = Object.keys(item);
             
             // Detect scrambled pattern
-            if (values.includes('skill') || values.includes('severity')) {
+            const hasScrambledValues = values.includes('skill') || values.includes('severity');
+            const hasFieldNamesAsKeys = keys.some(k => ['skill', 'severity'].includes(k.toLowerCase()));
+            
+            if (hasScrambledValues && !hasFieldNamesAsKeys) {
                 const fixed = {
                     skill: '',
                     severity: 'low'
@@ -131,8 +139,9 @@ function parseAndFixResponse(responseText) {
                     const strValue = String(value);
                     const lowerValue = strValue.toLowerCase().trim();
                     
+                    // Skip field name placeholders
                     if (lowerValue === 'skill' || lowerValue === 'severity') {
-
+                        continue;
                     } else if (['low', 'medium', 'high'].includes(lowerValue)) {
                         fixed.severity = lowerValue;
                     } else {
@@ -156,9 +165,13 @@ function parseAndFixResponse(responseText) {
             if (!item || typeof item !== 'object') return null;
             
             const values = Object.values(item).map(v => String(v).toLowerCase().trim());
+            const keys = Object.keys(item);
             
             // Detect scrambled pattern
-            if (values.includes('day') || values.includes('focus') || values.includes('task')) {
+            const hasScrambledValues = values.includes('day') || values.includes('focus') || values.includes('task');
+            const hasFieldNamesAsKeys = keys.some(k => ['day', 'focus', 'task'].includes(k.toLowerCase()));
+            
+            if (hasScrambledValues && !hasFieldNamesAsKeys) {
                 const fixed = {
                     day: 1,
                     focus: '',
@@ -169,13 +182,15 @@ function parseAndFixResponse(responseText) {
                     const strValue = String(value);
                     const lowerValue = strValue.toLowerCase().trim();
                     
+                    // Skip field name placeholders
                     if (lowerValue === 'day' || lowerValue === 'focus' || lowerValue === 'task') {
-
-                    } else if (!isNaN(parseInt(strValue))) {
+                        continue;
+                    } else if (!isNaN(parseInt(strValue)) && parseInt(strValue) > 0) {
                         // It's a number, likely a day
-                        fixed.day = parseInt(strValue) || 1;
+                        fixed.day = parseInt(strValue);
                     } else if (strValue.toLowerCase().includes('review') || strValue.toLowerCase().includes('study') ||
-                               strValue.toLowerCase().includes('practice') || strValue.toLowerCase().includes('learn')) {
+                               strValue.toLowerCase().includes('practice') || strValue.toLowerCase().includes('learn') ||
+                               strValue.toLowerCase().includes('read') || strValue.toLowerCase().includes('solve')) {
                         // Sounds like a task
                         if (!fixed.task) fixed.task = strValue;
                     } else {

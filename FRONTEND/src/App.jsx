@@ -9,6 +9,8 @@ import Dashboard from "./pages/Dashboard.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import Home from "./pages/Home.jsx";
 import Interview from "./pages/Interview.jsx";
+import AllInterviews from "./pages/AllInterviews.jsx";
+import ChooseInterview from "./pages/ChooseInterview.jsx";
 
 
 function App() {
@@ -37,6 +39,15 @@ function App() {
                     element: <ProtectedRoute><Interview/></ProtectedRoute>,
                     path: "/interview",
                 },
+                {
+                    element: <ProtectedRoute><AllInterviews/></ProtectedRoute>,
+                    path: "/all-interviews",
+                },
+                {
+                    element: <ProtectedRoute><ChooseInterview/></ProtectedRoute>,
+                    path: "/interview/:interviewId",
+                },
+
             ]
         }
     ])
