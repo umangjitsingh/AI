@@ -1,5 +1,3 @@
-
-
 import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
 import  { generateInterviewReport } from "../services/ai.service.js";
 import interviewReportModel from "../models/interviewReport.model.js";
@@ -26,28 +24,29 @@ export const generateInterviewReportController = async (req, res) => {
             resumeContent += content.items.map((i) => i.str).join(" ") + " ";
         }
 
-        const { selfDescription, jobDescription } = req.body;
+        const { selfDescription, jobDescription,personName } = req.body;
 
         const responseByAI = await generateInterviewReport({
             resume: resumeContent,
             selfDescription,
             jobDescription,
+            personName
         });
 
 
 
         const interviewReport=  await interviewReportModel.create({
             user: req.user.id,
-            candidateName: responseByAI.title || "Candidate",
             jobTitle: responseByAI.title || "Software Developer",
             resume: resumeContent,
             selfDescription,
             jobDescription,
+            personName,
             matchScore: responseByAI.matchScore,
             summary: `Interview report for ${responseByAI.title}`,
-            technicalQuestions: responseByAI.technicalQuestions,
-            behavioralQuestions: responseByAI.behavioralQuestions,
-            skillGaps: responseByAI.skillGaps,
+            technicalQuestion: responseByAI.technicalQuestion,
+            behavioralQuestion: responseByAI.behavioralQuestion,
+            skillGap: responseByAI.skillGap,
             preparationPlan: responseByAI.preparationPlan,
         });
 
@@ -61,3 +60,33 @@ export const generateInterviewReportController = async (req, res) => {
         });
     }
 };
+
+// export const getInterviewController = async (req, res) => {
+//     try {
+//         const interviewReports = await interviewReportModel.find({user: req.user.id});
+//         return res.status(200).json({
+//             message: "Interview reports fetched successfully",
+//             interviewReports
+//         });
+//     } catch (e) {
+//         return res.status(500).json({
+//             message: `Server error fetching interview reports: ${e}`,
+//         });
+//     }
+// }
+
+// export const getAllInterviewReportsController = async (req, res) => {
+//     try {
+//         const interviewReports = await interviewReportModel.find({user: req.user.id}).sort({createdAt: -1})
+//             .select("-resume -selfDescription -jobDescription -technicalQuestion -behavioralQuestion -skillGap -preparationPlan -skillGap " +
+//                 "-preparationPlan -__v");
+//         return res.status(200).json({
+//             message: "Interview reports fetched successfully",
+//             interviewReports
+//         });
+//     } catch (e) {
+//         return res.status(500).json({
+//             message: `Server error fetching interview reports: ${e}`,
+//         });
+//     }
+// }

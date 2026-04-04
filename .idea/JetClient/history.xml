@@ -561,89 +561,6 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1775056748743" />
-          <option name="id" value="8e639de9-6181-4f14-b1fb-67a70706368b" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &#10;  &quot;email&quot;: &quot;sachin@gmail.com&quot;,&#10;  password: &quot;sachin&quot;&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="id" value="8364a2a3-64ed-4263-9d5f-316ea269e99b" />
-              <option name="method" value="POST" />
-              <option name="name" value="login" />
-              <option name="url" value="http://localhost:8080/api/auth/get-me" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="PCFET0NUWVBFIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04Ij4KPHRpdGxlPkVycm9yPC90aXRsZT4KPC9oZWFkPgo8Ym9keT4KPHByZT5DYW5ub3QgUE9TVCAvYXBpL2F1dGgvZ2V0LW1lPC9wcmU+CjwvYm9keT4KPC9odG1sPgo=" />
-              <option name="bodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot POST /api/auth/get-me&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
-              <option name="code" value="404" />
-              <option name="connectionEstablishingTime" value="6" />
-              <option name="contentType" value="text/html; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Origin" />
-                    <option name="value" value="http://localhost:5173" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Credentials" />
-                    <option name="value" value="true" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Security-Policy" />
-                    <option name="value" value="default-src 'none'" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="X-Content-Type-Options" />
-                    <option name="value" value="nosniff" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="text/html; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="155" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Wed, 01 Apr 2026 15:19:08 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="8e639de9-6181-4f14-b1fb-67a70706368b" />
-              <option name="message" value="Not Found" />
-              <option name="prettyResponseType" value="HTML" />
-              <option name="previewType" value="HTML" />
-              <option name="rawBodyString" value="&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;&lt;meta charset=&quot;utf-8&quot;&gt;&#10;&lt;title&gt;Error&lt;/title&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;&lt;pre&gt;Cannot POST /api/auth/get-me&lt;/pre&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;" />
-              <option name="size" value="155" />
-              <option name="time" value="11" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1775056760381" />
           <option name="id" value="587ec934-515f-4488-a6f1-3621f73d500c" />
           <option name="request">
@@ -1675,382 +1592,6 @@
           <option name="workspaceId" value="drafts" />
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1775074478870" />
-          <option name="id" value="54e36666-cde4-4b2c-ad6c-b27462ef40e7" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="key" value="resume" />
-                        <option name="type" value="FILE" />
-                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="selfDescription" />
-                        <option name="value" value="i am a cook at taj hotel" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="jobDescription" />
-                        <option name="value" value="pakore talda" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
-              <option name="method" value="POST" />
-              <option name="name" value="interview report generator" />
-              <option name="url" value="http://localhost:8080/api/interview" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VydmVyIGVycm9yIGdlbmVyYXRpbmcgaW50ZXJ2aWV3IHJlcG9ydDogU3ludGF4RXJyb3I6IFVuZXhwZWN0ZWQgdG9rZW4gJ2AnLCBcImBgYGpzb25cbntcblwiLi4uIGlzIG5vdCB2YWxpZCBKU09OIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Server error generating interview report: SyntaxError: Unexpected token '`', \&quot;```json\n{\n\&quot;... is not valid JSON&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="6" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Origin" />
-                    <option name="value" value="http://localhost:5173" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Credentials" />
-                    <option name="value" value="true" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="128" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;80-bw9no5e4u+dCqMB4IgNREG4KXLY&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Wed, 01 Apr 2026 20:14:38 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="54e36666-cde4-4b2c-ad6c-b27462ef40e7" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: SyntaxError: Unexpected token '`', \&quot;```json\n{\n\&quot;... is not valid JSON&quot;}" />
-              <option name="size" value="128" />
-              <option name="time" value="12048" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1775074589894" />
-          <option name="id" value="5ade57c2-fb09-4bb8-bfdd-203f5537ab0d" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="key" value="resume" />
-                        <option name="type" value="FILE" />
-                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="selfDescription" />
-                        <option name="value" value="i am a cook at taj hotel" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="jobDescription" />
-                        <option name="value" value="pakore talda" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
-              <option name="method" value="POST" />
-              <option name="name" value="interview report generator" />
-              <option name="url" value="http://localhost:8080/api/interview" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VydmVyIGVycm9yIGdlbmVyYXRpbmcgaW50ZXJ2aWV3IHJlcG9ydDogU3ludGF4RXJyb3I6IFVuZXhwZWN0ZWQgdG9rZW4gJ2AnLCBcImBgYGpzb25cbntcblwiLi4uIGlzIG5vdCB2YWxpZCBKU09OIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Server error generating interview report: SyntaxError: Unexpected token '`', \&quot;```json\n{\n\&quot;... is not valid JSON&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="5" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Origin" />
-                    <option name="value" value="http://localhost:5173" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Credentials" />
-                    <option name="value" value="true" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="128" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;80-bw9no5e4u+dCqMB4IgNREG4KXLY&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Wed, 01 Apr 2026 20:16:29 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="5ade57c2-fb09-4bb8-bfdd-203f5537ab0d" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: SyntaxError: Unexpected token '`', \&quot;```json\n{\n\&quot;... is not valid JSON&quot;}" />
-              <option name="size" value="128" />
-              <option name="time" value="12485" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1775074861980" />
-          <option name="id" value="e1987b21-7288-4d05-a122-6a1edc24513f" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="key" value="resume" />
-                        <option name="type" value="FILE" />
-                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="selfDescription" />
-                        <option name="value" value="i am a cook at taj hotel" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="jobDescription" />
-                        <option name="value" value="pakore talda" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
-              <option name="method" value="POST" />
-              <option name="name" value="interview report generator" />
-              <option name="url" value="http://localhost:8080/api/interview" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VydmVyIGVycm9yIGdlbmVyYXRpbmcgaW50ZXJ2aWV3IHJlcG9ydDogU3ludGF4RXJyb3I6IFVuZXhwZWN0ZWQgdG9rZW4gJ2AnLCBcImBgYGpzb25cbntcblwiLi4uIGlzIG5vdCB2YWxpZCBKU09OIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Server error generating interview report: SyntaxError: Unexpected token '`', \&quot;```json\n{\n\&quot;... is not valid JSON&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="9" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Origin" />
-                    <option name="value" value="http://localhost:5173" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Credentials" />
-                    <option name="value" value="true" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="128" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;80-bw9no5e4u+dCqMB4IgNREG4KXLY&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Wed, 01 Apr 2026 20:21:01 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="e1987b21-7288-4d05-a122-6a1edc24513f" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: SyntaxError: Unexpected token '`', \&quot;```json\n{\n\&quot;... is not valid JSON&quot;}" />
-              <option name="size" value="128" />
-              <option name="time" value="24393" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1775075035575" />
-          <option name="id" value="1be7d6c4-6260-41d3-8f2d-881abc0c21ae" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="key" value="resume" />
-                        <option name="type" value="FILE" />
-                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="selfDescription" />
-                        <option name="value" value="i am a cook at taj hotel" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="key" value="jobDescription" />
-                        <option name="value" value="pakore talda" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
-              <option name="method" value="POST" />
-              <option name="name" value="interview report generator" />
-              <option name="url" value="http://localhost:8080/api/interview" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VydmVyIGVycm9yIGdlbmVyYXRpbmcgaW50ZXJ2aWV3IHJlcG9ydDogVmFsaWRhdGlvbkVycm9yOiBwcmVwYXJhdGlvblBsYW46IENhc3QgdG8gZW1iZWRkZWQgZmFpbGVkIGZvciB2YWx1ZSBcImRheVwiICh0eXBlIHN0cmluZykgYXQgcGF0aCBcInByZXBhcmF0aW9uUGxhblwiIGJlY2F1c2Ugb2YgXCJPYmplY3RQYXJhbWV0ZXJFcnJvclwiIn0=" />
-              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Server error generating interview report: ValidationError: preparationPlan: Cast to embedded failed for value \&quot;day\&quot; (type string) at path \&quot;preparationPlan\&quot; because of \&quot;ObjectParameterError\&quot;&quot;&#10;}" />
-              <option name="code" value="500" />
-              <option name="connectionEstablishingTime" value="9" />
-              <option name="contentType" value="application/json; charset=utf-8" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="X-Powered-By" />
-                    <option name="value" value="Express" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Origin" />
-                    <option name="value" value="http://localhost:5173" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Vary" />
-                    <option name="value" value="Origin" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Access-Control-Allow-Credentials" />
-                    <option name="value" value="true" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json; charset=utf-8" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Content-Length" />
-                    <option name="value" value="209" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="ETag" />
-                    <option name="value" value="W/&quot;d1-v+E7+oAUF0OxczQbQFgCF1pZBcY&quot;" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Wed, 01 Apr 2026 20:23:55 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="keep-alive" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Keep-Alive" />
-                    <option name="value" value="timeout=5" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="1be7d6c4-6260-41d3-8f2d-881abc0c21ae" />
-              <option name="message" value="Internal Server Error" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: ValidationError: preparationPlan: Cast to embedded failed for value \&quot;day\&quot; (type string) at path \&quot;preparationPlan\&quot; because of \&quot;ObjectParameterError\&quot;&quot;}" />
-              <option name="size" value="209" />
-              <option name="time" value="14564" />
-            </responseState>
-          </option>
-          <option name="workspaceId" value="drafts" />
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1775075109481" />
           <option name="id" value="e5da9e52-11f3-4618-a48e-6406c97ca973" />
           <option name="request">
@@ -2610,6 +2151,464 @@
               <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: ApiError: {\&quot;error\&quot;:{\&quot;code\&quot;:429,\&quot;message\&quot;:\&quot;You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\\nPlease retry in 16.466235032s.\&quot;,\&quot;status\&quot;:\&quot;RESOURCE_EXHAUSTED\&quot;,\&quot;details\&quot;:[{\&quot;@type\&quot;:\&quot;type.googleapis.com/google.rpc.Help\&quot;,\&quot;links\&quot;:[{\&quot;description\&quot;:\&quot;Learn more about Gemini API quotas\&quot;,\&quot;url\&quot;:\&quot;https://ai.google.dev/gemini-api/docs/rate-limits\&quot;}]},{\&quot;@type\&quot;:\&quot;type.googleapis.com/google.rpc.QuotaFailure\&quot;,\&quot;violations\&quot;:[{\&quot;quotaMetric\&quot;:\&quot;generativelanguage.googleapis.com/generate_content_free_tier_requests\&quot;,\&quot;quotaId\&quot;:\&quot;GenerateRequestsPerDayPerProjectPerModel-FreeTier\&quot;,\&quot;quotaDimensions\&quot;:{\&quot;location\&quot;:\&quot;global\&quot;,\&quot;model\&quot;:\&quot;gemini-2.5-flash\&quot;},\&quot;quotaValue\&quot;:\&quot;20\&quot;}]},{\&quot;@type\&quot;:\&quot;type.googleapis.com/google.rpc.RetryInfo\&quot;,\&quot;retryDelay\&quot;:\&quot;16s\&quot;}]}}&quot;}" />
               <option name="size" value="1164" />
               <option name="time" value="993" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1775143385783" />
+          <option name="id" value="ae2532fa-6f1b-43a4-a926-bde674095d08" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;option&quot;: &quot;kuldeep&quot;,&#10;  &quot;password&quot;:&quot;kuldeep&quot;&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="id" value="8364a2a3-64ed-4263-9d5f-316ea269e99b" />
+              <option name="method" value="POST" />
+              <option name="name" value="login" />
+              <option name="url" value="http://localhost:8080/api/auth/login" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiTG9naW4gc3VjY2Vzc2Z1bGx5In0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Login successfully&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="connectionEstablishingTime" value="353" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Origin" />
+                    <option name="value" value="http://localhost:5173" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Credentials" />
+                    <option name="value" value="true" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Set-Cookie" />
+                    <option name="value" value="token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5Y2QzOGE5MjUxYzU5MjA3ZTViZWU0NCIsImlhdCI6MTc3NTE0MzM4NX0.5sE_CxdRAHxrlEF7A7uSiT464Bbom-IFr0-F-nFAXJU; Path=/" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="32" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;20-1UOGHh8Wx9PTVQrIjyvCP5U06IQ&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 02 Apr 2026 15:23:05 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ae2532fa-6f1b-43a4-a926-bde674095d08" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Login successfully&quot;}" />
+              <option name="size" value="32" />
+              <option name="time" value="567" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1775143406757" />
+          <option name="id" value="983accc8-848f-48a5-878e-6d0bda0b9d29" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="resume" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="selfDescription" />
+                        <option name="value" value="i am a cook at taj hotel" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="jobDescription" />
+                        <option name="value" value="pakore talda" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
+              <option name="method" value="POST" />
+              <option name="name" value="interview report generator" />
+              <option name="url" value="http://localhost:8080/api/interview" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VydmVyIGVycm9yIGdlbmVyYXRpbmcgaW50ZXJ2aWV3IHJlcG9ydDogRXJyb3I6IEZhaWxlZCB0byBwYXJzZSBBSSByZXNwb25zZTogW1xuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInRlY2huaWNhbFF1ZXN0aW9uc1wiLFxuICAgICAgMFxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInRlY2huaWNhbFF1ZXN0aW9uc1wiLFxuICAgICAgMVxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInRlY2huaWNhbFF1ZXN0aW9uc1wiLFxuICAgICAgMlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcImJlaGF2aW9yYWxRdWVzdGlvbnNcIixcbiAgICAgIDBcbiAgICBdLFxuICAgIFwibWVzc2FnZVwiOiBcIkludmFsaWQgaW5wdXQ6IGV4cGVjdGVkIG9iamVjdCwgcmVjZWl2ZWQgc3RyaW5nXCJcbiAgfSxcbiAge1xuICAgIFwiZXhwZWN0ZWRcIjogXCJvYmplY3RcIixcbiAgICBcImNvZGVcIjogXCJpbnZhbGlkX3R5cGVcIixcbiAgICBcInBhdGhcIjogW1xuICAgICAgXCJiZWhhdmlvcmFsUXVlc3Rpb25zXCIsXG4gICAgICAxXG4gICAgXSxcbiAgICBcIm1lc3NhZ2VcIjogXCJJbnZhbGlkIGlucHV0OiBleHBlY3RlZCBvYmplY3QsIHJlY2VpdmVkIHN0cmluZ1wiXG4gIH0sXG4gIHtcbiAgICBcImV4cGVjdGVkXCI6IFwib2JqZWN0XCIsXG4gICAgXCJjb2RlXCI6IFwiaW52YWxpZF90eXBlXCIsXG4gICAgXCJwYXRoXCI6IFtcbiAgICAgIFwiYmVoYXZpb3JhbFF1ZXN0aW9uc1wiLFxuICAgICAgMlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInNraWxsR2Fwc1wiLFxuICAgICAgMFxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInNraWxsR2Fwc1wiLFxuICAgICAgMVxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInNraWxsR2Fwc1wiLFxuICAgICAgMlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInNraWxsR2Fwc1wiLFxuICAgICAgM1xuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgMFxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgMVxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgMlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgM1xuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgNFxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgNVxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgNlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgN1xuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgOFxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgOVxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgMTBcbiAgICBdLFxuICAgIFwibWVzc2FnZVwiOiBcIkludmFsaWQgaW5wdXQ6IGV4cGVjdGVkIG9iamVjdCwgcmVjZWl2ZWQgc3RyaW5nXCJcbiAgfSxcbiAge1xuICAgIFwiZXhwZWN0ZWRcIjogXCJvYmplY3RcIixcbiAgICBcImNvZGVcIjogXCJpbnZhbGlkX3R5cGVcIixcbiAgICBcInBhdGhcIjogW1xuICAgICAgXCJwcmVwYXJhdGlvblBsYW5cIixcbiAgICAgIDExXG4gICAgXSxcbiAgICBcIm1lc3NhZ2VcIjogXCJJbnZhbGlkIGlucHV0OiBleHBlY3RlZCBvYmplY3QsIHJlY2VpdmVkIHN0cmluZ1wiXG4gIH0sXG4gIHtcbiAgICBcImV4cGVjdGVkXCI6IFwib2JqZWN0XCIsXG4gICAgXCJjb2RlXCI6IFwiaW52YWxpZF90eXBlXCIsXG4gICAgXCJwYXRoXCI6IFtcbiAgICAgIFwicHJlcGFyYXRpb25QbGFuXCIsXG4gICAgICAxMlxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBzdHJpbmdcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgMTNcbiAgICBdLFxuICAgIFwibWVzc2FnZVwiOiBcIkludmFsaWQgaW5wdXQ6IGV4cGVjdGVkIG9iamVjdCwgcmVjZWl2ZWQgc3RyaW5nXCJcbiAgfSxcbiAge1xuICAgIFwiZXhwZWN0ZWRcIjogXCJvYmplY3RcIixcbiAgICBcImNvZGVcIjogXCJpbnZhbGlkX3R5cGVcIixcbiAgICBcInBhdGhcIjogW1xuICAgICAgXCJwcmVwYXJhdGlvblBsYW5cIixcbiAgICAgIDE0XG4gICAgXSxcbiAgICBcIm1lc3NhZ2VcIjogXCJJbnZhbGlkIGlucHV0OiBleHBlY3RlZCBvYmplY3QsIHJlY2VpdmVkIHN0cmluZ1wiXG4gIH1cbl0ifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Server error generating interview report: Error: Failed to parse AI response: [\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      3\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      3\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      4\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      5\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      6\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      7\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      8\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      9\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      10\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      11\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      12\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      13\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      14\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  }\n]&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="24" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Origin" />
+                    <option name="value" value="http://localhost:5173" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Credentials" />
+                    <option name="value" value="true" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="5272" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;1498-2Wkzd+X04sOqS0ny2KQi+H8yILo&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 02 Apr 2026 15:23:26 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="983accc8-848f-48a5-878e-6d0bda0b9d29" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: Error: Failed to parse AI response: [\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;skillGaps\&quot;,\n      3\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      3\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      4\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      5\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      6\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      7\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      8\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      9\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      10\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      11\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      12\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      13\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      14\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received string\&quot;\n  }\n]&quot;}" />
+              <option name="size" value="5272" />
+              <option name="time" value="12134" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1775144132480" />
+          <option name="id" value="4090a932-ed0b-4b5b-a9d9-bb23eb0111cb" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="resume" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="selfDescription" />
+                        <option name="value" value="i am a cook at taj hotel" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="jobDescription" />
+                        <option name="value" value="pakore talda" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
+              <option name="method" value="POST" />
+              <option name="name" value="interview report generator" />
+              <option name="url" value="http://localhost:8080/api/interview" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiSW50ZXJ2aWV3IFJlcG9ydCBnZW5lcmF0ZWQgc3VjY2Vzc2Z1bGx5IiwiaW50ZXJ2aWV3UmVwb3J0Ijp7ImNhbmRpZGF0ZU5hbWUiOiJDb29rIiwiam9iVGl0bGUiOiJDb29rIiwic3VtbWFyeSI6IkludGVydmlldyByZXBvcnQgZm9yIENvb2siLCJqb2JEZXNjcmlwdGlvbiI6InBha29yZSB0YWxkYSIsInJlc3VtZSI6IkFsZXggVGhvbXBzb24gIFRvcm9udG8sIE9OIHwgKDU1NSkgMTIzLTQ1NjcgfCBhbGV4LnRob21wc29uQGV4YW1wbGUuY29tICBQcm9mZXNzaW9uYWwgU3VtbWFyeSAgRGVkaWNhdGVkIGFuZCB2ZXJzYXRpbGUgY29vayB3aXRoIDUrIHllYXJzIG9mIGV4cGVyaWVuY2UgaW4gZmFzdC1wYWNlZCBraXRjaGVuIGVudmlyb25tZW50cy4gU2tpbGxlZCBpbiBmb29kIHByZXBhcmF0aW9uLCBtZW51IGV4ZWN1dGlvbiwgYW5kIG1haW50YWluaW5nIGhpZ2ggc3RhbmRhcmRzIG9mIGNsZWFubGluZXNzIGFuZCBzYWZldHkuIFBhc3Npb25hdGUgYWJvdXQgZGVsaXZlcmluZyBxdWFsaXR5IGRpc2hlcyBhbmQgc3VwcG9ydGluZyBlZmZpY2llbnQga2l0Y2hlbiBvcGVyYXRpb25zLiAgV29yayBFeHBlcmllbmNlICBDb29rIHwgTWFwbGUgTGVhZiBCaXN0cm8gfCAyMDIxLTIwMjQgIC0gUHJlcGFyZWQgaGlnaC1xdWFsaXR5IG1lYWxzIGFjY29yZGluZyB0byByZXN0YXVyYW50IHJlY2lwZXMgYW5kIHN0YW5kYXJkcy4gLSBNYW5hZ2VkIGZvb2QgcHJlcCBzdGF0aW9ucyBhbmQgZW5zdXJlZCBpbmdyZWRpZW50IGZyZXNobmVzcy4gLSBDb2xsYWJvcmF0ZWQgd2l0aCBraXRjaGVuIHN0YWZmIHRvIG1haW50YWluIHNtb290aCBzZXJ2aWNlIGR1cmluZyBwZWFrIGhvdXJzLiAtIE1vbml0b3JlZCBmb29kIHNhZmV0eSBwcm9jZWR1cmVzIGFuZCBjbGVhbmxpbmVzcy4gIExpbmUgQ29vayB8IFVyYmFuIEVhdHMgQ2Fmw6kgfCAyMDE5LTIwMjEgIC0gRXhlY3V0ZWQgbWVudSBpdGVtcyBxdWlja2x5IGFuZCBhY2N1cmF0ZWx5IGluIGEgaGlnaC12b2x1bWUgc2V0dGluZy4gLSBBc3Npc3RlZCB3aXRoIGludmVudG9yeSByb3RhdGlvbiBhbmQgc3RvY2sgbWFuYWdlbWVudC4gLSBTdXBwb3J0ZWQgbWVudSBkZXZlbG9wbWVudCB3aXRoIHNlYXNvbmFsIGRpc2ggaWRlYXMuICBTa2lsbHMgIEtuaWZlIHNraWxscywgRm9vZCBwcmVwYXJhdGlvbiwgVGltZSBtYW5hZ2VtZW50LCBLaXRjaGVuIHNhZmV0eSAmIHNhbml0YXRpb24sIFRlYW0gY29sbGFib3JhdGlvbiwgTWVudSBleGVjdXRpb24gIEVkdWNhdGlvbiAgQ3VsaW5hcnkgQXJ0cyBDZXJ0aWZpY2F0ZSB8IFRvcm9udG8gQ3VsaW5hcnkgSW5zdGl0dXRlIHwgMjAxOSAiLCJzZWxmRGVzY3JpcHRpb24iOiJpIGFtIGEgY29vayBhdCB0YWogaG90ZWwiLCJtYXRjaFNjb3JlIjo4NSwicHJlcGFyYXRpb25QbGFuIjpbeyJkYXkiOjEsImZvY3VzIjoiUmVzZWFyY2ggYW5kIHByYWN0aWNlIHNwZWNpZmljIGJhdHRlciBjb25zaXN0ZW5jeSwgb2lsIHRlbXBlcmF0dXJlcywgYW5kIHNwaWNlIGJsZW5kcyBmb3IgcGFrb3JhcyBhbmQgc2ltaWxhciBpdGVtcy4iLCJ0YXNrIjoiUmV2aWV3IHN0cmF0ZWdpZXMgZm9yIG1haW50YWluaW5nIHNwZWVkIGFuZCBxdWFsaXR5IHdoZW4gcHJlcGFyaW5nIGxhcmdlIHF1YW50aXRpZXMgb2Ygc3BlY2lmaWMgZGVlcC1mcmllZCBpdGVtcy4ifV0sInVzZXIiOiI2OWNkMzhhOTI1MWM1OTIwN2U1YmVlNDQiLCJfaWQiOiI2OWNlOGNjNDMyZGI5ZTMxMjgwMjRkOWIiLCJ0ZWNobmljYWxRdWVzdGlvbiI6W10sImJlaGF2aW9yYWxRdWVzdGlvbiI6W10sInNraWxsR2FwIjpbXSwiY3JlYXRlZEF0IjoiMjAyNi0wNC0wMlQxNTozNTozMi4zODBaIiwidXBkYXRlZEF0IjoiMjAyNi0wNC0wMlQxNTozNTozMi4zODBaIiwiX192IjowfX0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Interview Report generated successfully&quot;,&#10;  &quot;interviewReport&quot;: {&#10;    &quot;candidateName&quot;: &quot;Cook&quot;,&#10;    &quot;jobTitle&quot;: &quot;Cook&quot;,&#10;    &quot;summary&quot;: &quot;Interview report for Cook&quot;,&#10;    &quot;jobDescription&quot;: &quot;pakore talda&quot;,&#10;    &quot;resume&quot;: &quot;Alex Thompson  Toronto, ON | (555) 123-4567 | alex.thompson@example.com  Professional Summary  Dedicated and versatile cook with 5+ years of experience in fast-paced kitchen environments. Skilled in food preparation, menu execution, and maintaining high standards of cleanliness and safety. Passionate about delivering quality dishes and supporting efficient kitchen operations.  Work Experience  Cook | Maple Leaf Bistro | 2021-2024  - Prepared high-quality meals according to restaurant recipes and standards. - Managed food prep stations and ensured ingredient freshness. - Collaborated with kitchen staff to maintain smooth service during peak hours. - Monitored food safety procedures and cleanliness.  Line Cook | Urban Eats Café | 2019-2021  - Executed menu items quickly and accurately in a high-volume setting. - Assisted with inventory rotation and stock management. - Supported menu development with seasonal dish ideas.  Skills  Knife skills, Food preparation, Time management, Kitchen safety &amp; sanitation, Team collaboration, Menu execution  Education  Culinary Arts Certificate | Toronto Culinary Institute | 2019 &quot;,&#10;    &quot;selfDescription&quot;: &quot;i am a cook at taj hotel&quot;,&#10;    &quot;matchScore&quot;: 85,&#10;    &quot;preparationPlan&quot;: [&#10;      {&#10;        &quot;day&quot;: 1,&#10;        &quot;focus&quot;: &quot;Research and practice specific batter consistency, oil temperatures, and spice blends for pakoras and similar items.&quot;,&#10;        &quot;task&quot;: &quot;Review strategies for maintaining speed and quality when preparing large quantities of specific deep-fried items.&quot;&#10;      }&#10;    ],&#10;    &quot;user&quot;: &quot;69cd38a9251c59207e5bee44&quot;,&#10;    &quot;_id&quot;: &quot;69ce8cc432db9e3128024d9b&quot;,&#10;    &quot;technicalQuestion&quot;: [],&#10;    &quot;behavioralQuestion&quot;: [],&#10;    &quot;skillGap&quot;: [],&#10;    &quot;createdAt&quot;: &quot;2026-04-02T15:35:32.380Z&quot;,&#10;    &quot;updatedAt&quot;: &quot;2026-04-02T15:35:32.380Z&quot;,&#10;    &quot;__v&quot;: 0&#10;  }&#10;}" />
+              <option name="code" value="201" />
+              <option name="connectionEstablishingTime" value="9" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Origin" />
+                    <option name="value" value="http://localhost:5173" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Credentials" />
+                    <option name="value" value="true" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="1880" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;758-oSfF7Vk3KJEU4z43bX+Rgc8aeT4&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 02 Apr 2026 15:35:32 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4090a932-ed0b-4b5b-a9d9-bb23eb0111cb" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Interview Report generated successfully&quot;,&quot;interviewReport&quot;:{&quot;candidateName&quot;:&quot;Cook&quot;,&quot;jobTitle&quot;:&quot;Cook&quot;,&quot;summary&quot;:&quot;Interview report for Cook&quot;,&quot;jobDescription&quot;:&quot;pakore talda&quot;,&quot;resume&quot;:&quot;Alex Thompson  Toronto, ON | (555) 123-4567 | alex.thompson@example.com  Professional Summary  Dedicated and versatile cook with 5+ years of experience in fast-paced kitchen environments. Skilled in food preparation, menu execution, and maintaining high standards of cleanliness and safety. Passionate about delivering quality dishes and supporting efficient kitchen operations.  Work Experience  Cook | Maple Leaf Bistro | 2021-2024  - Prepared high-quality meals according to restaurant recipes and standards. - Managed food prep stations and ensured ingredient freshness. - Collaborated with kitchen staff to maintain smooth service during peak hours. - Monitored food safety procedures and cleanliness.  Line Cook | Urban Eats Café | 2019-2021  - Executed menu items quickly and accurately in a high-volume setting. - Assisted with inventory rotation and stock management. - Supported menu development with seasonal dish ideas.  Skills  Knife skills, Food preparation, Time management, Kitchen safety &amp; sanitation, Team collaboration, Menu execution  Education  Culinary Arts Certificate | Toronto Culinary Institute | 2019 &quot;,&quot;selfDescription&quot;:&quot;i am a cook at taj hotel&quot;,&quot;matchScore&quot;:85,&quot;preparationPlan&quot;:[{&quot;day&quot;:1,&quot;focus&quot;:&quot;Research and practice specific batter consistency, oil temperatures, and spice blends for pakoras and similar items.&quot;,&quot;task&quot;:&quot;Review strategies for maintaining speed and quality when preparing large quantities of specific deep-fried items.&quot;}],&quot;user&quot;:&quot;69cd38a9251c59207e5bee44&quot;,&quot;_id&quot;:&quot;69ce8cc432db9e3128024d9b&quot;,&quot;technicalQuestion&quot;:[],&quot;behavioralQuestion&quot;:[],&quot;skillGap&quot;:[],&quot;createdAt&quot;:&quot;2026-04-02T15:35:32.380Z&quot;,&quot;updatedAt&quot;:&quot;2026-04-02T15:35:32.380Z&quot;,&quot;__v&quot;:0}}" />
+              <option name="size" value="1880" />
+              <option name="time" value="8362" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1775145666744" />
+          <option name="id" value="ba9e1d69-55e7-4044-927e-92f2e847f0f3" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="resume" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="selfDescription" />
+                        <option name="value" value="i am a cook at taj hotel" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="jobDescription" />
+                        <option name="value" value="pakore talda" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
+              <option name="method" value="POST" />
+              <option name="name" value="interview report generator" />
+              <option name="url" value="http://localhost:8080/api/interview" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VydmVyIGVycm9yIGdlbmVyYXRpbmcgaW50ZXJ2aWV3IHJlcG9ydDogRXJyb3I6IEZhaWxlZCB0byBwYXJzZSBBSSByZXNwb25zZTogW1xuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInRlY2huaWNhbFF1ZXN0aW9uc1wiLFxuICAgICAgMFxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBudWxsXCJcbiAgfSxcbiAge1xuICAgIFwiZXhwZWN0ZWRcIjogXCJvYmplY3RcIixcbiAgICBcImNvZGVcIjogXCJpbnZhbGlkX3R5cGVcIixcbiAgICBcInBhdGhcIjogW1xuICAgICAgXCJ0ZWNobmljYWxRdWVzdGlvbnNcIixcbiAgICAgIDFcbiAgICBdLFxuICAgIFwibWVzc2FnZVwiOiBcIkludmFsaWQgaW5wdXQ6IGV4cGVjdGVkIG9iamVjdCwgcmVjZWl2ZWQgbnVsbFwiXG4gIH0sXG4gIHtcbiAgICBcImV4cGVjdGVkXCI6IFwib2JqZWN0XCIsXG4gICAgXCJjb2RlXCI6IFwiaW52YWxpZF90eXBlXCIsXG4gICAgXCJwYXRoXCI6IFtcbiAgICAgIFwidGVjaG5pY2FsUXVlc3Rpb25zXCIsXG4gICAgICAyXG4gICAgXSxcbiAgICBcIm1lc3NhZ2VcIjogXCJJbnZhbGlkIGlucHV0OiBleHBlY3RlZCBvYmplY3QsIHJlY2VpdmVkIG51bGxcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcImJlaGF2aW9yYWxRdWVzdGlvbnNcIixcbiAgICAgIDBcbiAgICBdLFxuICAgIFwibWVzc2FnZVwiOiBcIkludmFsaWQgaW5wdXQ6IGV4cGVjdGVkIG9iamVjdCwgcmVjZWl2ZWQgbnVsbFwiXG4gIH0sXG4gIHtcbiAgICBcImV4cGVjdGVkXCI6IFwib2JqZWN0XCIsXG4gICAgXCJjb2RlXCI6IFwiaW52YWxpZF90eXBlXCIsXG4gICAgXCJwYXRoXCI6IFtcbiAgICAgIFwiYmVoYXZpb3JhbFF1ZXN0aW9uc1wiLFxuICAgICAgMVxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBudWxsXCJcbiAgfSxcbiAge1xuICAgIFwiZXhwZWN0ZWRcIjogXCJvYmplY3RcIixcbiAgICBcImNvZGVcIjogXCJpbnZhbGlkX3R5cGVcIixcbiAgICBcInBhdGhcIjogW1xuICAgICAgXCJiZWhhdmlvcmFsUXVlc3Rpb25zXCIsXG4gICAgICAyXG4gICAgXSxcbiAgICBcIm1lc3NhZ2VcIjogXCJJbnZhbGlkIGlucHV0OiBleHBlY3RlZCBvYmplY3QsIHJlY2VpdmVkIG51bGxcIlxuICB9LFxuICB7XG4gICAgXCJleHBlY3RlZFwiOiBcIm9iamVjdFwiLFxuICAgIFwiY29kZVwiOiBcImludmFsaWRfdHlwZVwiLFxuICAgIFwicGF0aFwiOiBbXG4gICAgICBcInByZXBhcmF0aW9uUGxhblwiLFxuICAgICAgMFxuICAgIF0sXG4gICAgXCJtZXNzYWdlXCI6IFwiSW52YWxpZCBpbnB1dDogZXhwZWN0ZWQgb2JqZWN0LCByZWNlaXZlZCBudWxsXCJcbiAgfSxcbiAge1xuICAgIFwiZXhwZWN0ZWRcIjogXCJvYmplY3RcIixcbiAgICBcImNvZGVcIjogXCJpbnZhbGlkX3R5cGVcIixcbiAgICBcInBhdGhcIjogW1xuICAgICAgXCJwcmVwYXJhdGlvblBsYW5cIixcbiAgICAgIDFcbiAgICBdLFxuICAgIFwibWVzc2FnZVwiOiBcIkludmFsaWQgaW5wdXQ6IGV4cGVjdGVkIG9iamVjdCwgcmVjZWl2ZWQgbnVsbFwiXG4gIH0sXG4gIHtcbiAgICBcImV4cGVjdGVkXCI6IFwib2JqZWN0XCIsXG4gICAgXCJjb2RlXCI6IFwiaW52YWxpZF90eXBlXCIsXG4gICAgXCJwYXRoXCI6IFtcbiAgICAgIFwicHJlcGFyYXRpb25QbGFuXCIsXG4gICAgICAyXG4gICAgXSxcbiAgICBcIm1lc3NhZ2VcIjogXCJJbnZhbGlkIGlucHV0OiBleHBlY3RlZCBvYmplY3QsIHJlY2VpdmVkIG51bGxcIlxuICB9XG5dIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Server error generating interview report: Error: Failed to parse AI response: [\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  }\n]&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="13" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Origin" />
+                    <option name="value" value="http://localhost:5173" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Credentials" />
+                    <option name="value" value="true" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="1961" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;7a9-YTSbkNqJ9Wd8X4v0TXYE6oLp7Mk&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 02 Apr 2026 16:01:06 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ba9e1d69-55e7-4044-927e-92f2e847f0f3" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: Error: Failed to parse AI response: [\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;technicalQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;behavioralQuestions\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      0\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      1\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  },\n  {\n    \&quot;expected\&quot;: \&quot;object\&quot;,\n    \&quot;code\&quot;: \&quot;invalid_type\&quot;,\n    \&quot;path\&quot;: [\n      \&quot;preparationPlan\&quot;,\n      2\n    ],\n    \&quot;message\&quot;: \&quot;Invalid input: expected object, received null\&quot;\n  }\n]&quot;}" />
+              <option name="size" value="1961" />
+              <option name="time" value="10743" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1775145752606" />
+          <option name="id" value="37bff487-fd4a-4d56-aa9b-31aee3c918ed" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="resume" />
+                        <option name="type" value="FILE" />
+                        <option name="value" value="C:\Users\umang\OneDrive\Desktop\Alex_Thompson_Cook_Resume.pdf" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="selfDescription" />
+                        <option name="value" value="i am a cook at taj hotel" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="jobDescription" />
+                        <option name="value" value="pakore talda" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="id" value="f6b074a7-5f8a-42d3-9e7e-490f4bae3241" />
+              <option name="method" value="POST" />
+              <option name="name" value="interview report generator" />
+              <option name="url" value="http://localhost:8080/api/interview" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJtZXNzYWdlIjoiU2VydmVyIGVycm9yIGdlbmVyYXRpbmcgaW50ZXJ2aWV3IHJlcG9ydDogRXJyb3I6IEZhaWxlZCB0byBwYXJzZSBBSSByZXNwb25zZToge1wiZXJyb3JcIjp7XCJjb2RlXCI6NTAzLFwibWVzc2FnZVwiOlwiVGhpcyBtb2RlbCBpcyBjdXJyZW50bHkgZXhwZXJpZW5jaW5nIGhpZ2ggZGVtYW5kLiBTcGlrZXMgaW4gZGVtYW5kIGFyZSB1c3VhbGx5IHRlbXBvcmFyeS4gUGxlYXNlIHRyeSBhZ2FpbiBsYXRlci5cIixcInN0YXR1c1wiOlwiVU5BVkFJTEFCTEVcIn19In0=" />
+              <option name="bodyString" value="{&#10;  &quot;message&quot;: &quot;Server error generating interview report: Error: Failed to parse AI response: {\&quot;error\&quot;:{\&quot;code\&quot;:503,\&quot;message\&quot;:\&quot;This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\&quot;,\&quot;status\&quot;:\&quot;UNAVAILABLE\&quot;}}&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="connectionEstablishingTime" value="10" />
+              <option name="contentType" value="application/json; charset=utf-8" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="X-Powered-By" />
+                    <option name="value" value="Express" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Origin" />
+                    <option name="value" value="http://localhost:5173" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Access-Control-Allow-Credentials" />
+                    <option name="value" value="true" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json; charset=utf-8" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Length" />
+                    <option name="value" value="275" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="ETag" />
+                    <option name="value" value="W/&quot;113-X91ARJzLatobxvlHpVShDCn/rEs&quot;" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Thu, 02 Apr 2026 16:02:32 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=5" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="37bff487-fd4a-4d56-aa9b-31aee3c918ed" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;message&quot;:&quot;Server error generating interview report: Error: Failed to parse AI response: {\&quot;error\&quot;:{\&quot;code\&quot;:503,\&quot;message\&quot;:\&quot;This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\&quot;,\&quot;status\&quot;:\&quot;UNAVAILABLE\&quot;}}&quot;}" />
+              <option name="size" value="275" />
+              <option name="time" value="11427" />
             </responseState>
           </option>
           <option name="workspaceId" value="drafts" />

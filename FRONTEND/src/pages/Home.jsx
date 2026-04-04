@@ -36,64 +36,103 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaRocket, FaStar, FaUsers, FaArrowRight } from "react-icons/fa";
+import Navbar from "../components/Navbar";
 
 function Home() {
+    const features = [
+        {
+            icon: <FaRocket className="text-4xl text-pink-400" />,
+            title: "Fast & Efficient",
+            description: "Get your personalized interview report in seconds"
+        },
+        {
+            icon: <FaStar className="text-4xl text-purple-400" />,
+            title: "AI-Powered",
+            description: "Advanced AI analysis for accurate skill assessment"
+        },
+        {
+            icon: <FaUsers className="text-4xl text-blue-400" />,
+            title: "Career Growth",
+            description: "Personalized preparation plans to boost your skills"
+        }
+    ];
+
     return (
-        <div className="min-h-screen w-full bg-[#191919] text-gray-100 flex flex-col">
-
-            {/* NAVBAR */}
-            <nav className="w-full py-6 px-10 flex justify-between items-center bg-[#1f1f1f] border-b border-[#2a2a2a]">
-                <h1 className="text-3xl font-bold tracking-tight text-[#e1024d]">
-                    HIRED<span className="text-gray-200">.COM</span>
-                </h1>
-
-                <div className="flex items-center gap-6">
-                    <Link
-                        to="/login"
-                        className="text-gray-300 hover:text-white transition border border-[#3a3a3a] hover:bg-[#2a2a2a] px-8 py-2 rounded-lg"
-                    >
-                        Login
-                    </Link>
-                    <Link
-                        to="/register"
-                        className="bg-[#e1024d] border border-[#b8013e] px-5 py-2 rounded-lg font-semibold hover:bg-[#c50142] transition"
-                    >
-                        Register
-                    </Link>
-                </div>
-            </nav>
-
-            {/* HERO SECTION */}
-            <div className="flex flex-col items-center justify-center flex-1 text-center px-6">
-                <h2 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white">
-                    Find Your Next Opportunity
-                </h2>
-
-                <p className="mt-4 text-gray-400 max-w-xl text-lg">
-                    A modern platform designed to connect talent with the right companies.
-                    Fast, simple, and built for the future.
-                </p>
-
-                <div className="mt-10 flex gap-6">
-                    <Link
-                        to="/register"
-                        className="bg-[#e1024d] border border-[#b8013e] px-8 py-3 rounded-lg text-lg font-semibold hover:bg-[#c50142] transition"
-                    >
-                        Get Started
-                    </Link>
-
-                    <Link
-                        to="/login"
-                        className="px-8 py-3 rounded-lg text-lg font-semibold border border-[#3a3a3a] hover:bg-[#2a2a2a] transition"
-                    >
-                        Login
-                    </Link>
-                </div>
+        <div className="bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 min-h-screen flex flex-col overflow-hidden">
+            {/* Animated background elements */}
+            <div className="fixed inset-0 overflow-hidden pointer-events-none">
+                <div className="absolute -top-[30%] -left-[10%] w-[70%] h-[70%] rounded-full bg-pink-500/5 blur-3xl animate-pulse"></div>
+                <div className="absolute -bottom-[30%] -right-[10%] w-[70%] h-[70%] rounded-full bg-purple-500/5 blur-3xl animate-pulse delay-1000"></div>
             </div>
 
+            <Navbar />
+
+            {/* HERO SECTION */}
+            <section className="flex-1 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-10 py-20 relative z-10">
+                <div className="max-w-5xl mx-auto text-center">
+                    {/* Badge */}
+                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8 animate-fade-in">
+                        <span className="w-2 h-2 bg-green-400 rounded-full animate-ping"></span>
+                        <span className="text-sm text-gray-300 font-medium">AI-Powered Interview Preparation</span>
+                    </div>
+
+                    {/* Main Heading */}
+                    <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold gradient-text tracking-tight mb-6 leading-tight">
+                        Find Your Next
+                        <br className="hidden sm:block" />
+                        <span className="block mt-2">Opportunity</span>
+                    </h1>
+
+                    {/* Subtitle */}
+                    <p className="text-lg sm:text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed">
+                        A modern platform designed to connect talent with the right companies.
+                        <span className="block mt-2 text-gray-300 font-medium">Fast, simple, and built for the future.</span>
+                    </p>
+
+                    {/* CTA Buttons */}
+                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
+                        <Link
+                            to="/register"
+                            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-gradient-to-r from-pink-600 to-purple-600 border border-pink-500/30 px-8 py-4 rounded-xl text-lg font-semibold hover:from-pink-700 hover:to-purple-700 transition-all duration-300 shadow-xl shadow-pink-500/20 hover:shadow-pink-500/40 hover:scale-105"
+                        >
+                            Get Started Free
+                            <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
+                        </Link>
+
+                        <Link
+                            to="/login"
+                            className="w-full sm:w-auto px-8 py-4 rounded-xl text-lg font-semibold glass hover:bg-white/10 transition-all duration-300 hover:scale-105"
+                        >
+                            Sign In
+                        </Link>
+                    </div>
+
+                    {/* Feature Cards */}
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+                        {features.map((feature, idx) => (
+                            <div
+                                key={idx}
+                                className="group glass rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 hover:-translate-y-2"
+                            >
+                                <div className="flex flex-col items-center text-center gap-4">
+                                    <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                                        {feature.icon}
+                                    </div>
+                                    <h3 className="text-xl font-bold text-gray-200">{feature.title}</h3>
+                                    <p className="text-gray-400 text-sm leading-relaxed">{feature.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
             {/* FOOTER */}
-            <footer className="py-6 text-center text-gray-500 text-sm border-t border-[#2a2a2a]">
-                © {new Date().getFullYear()} HIRED.COM — All rights reserved.
+            <footer className="w-full py-6 px-4 text-center glass border-t border-white/10 relative z-10">
+                <p className="text-gray-500 text-sm sm:text-base">
+                    © {new Date().getFullYear()} HIRED.COM — All rights reserved.
+                </p>
             </footer>
         </div>
     );

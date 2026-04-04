@@ -8,6 +8,7 @@ import  store  from "./store/store.js";
 import Dashboard from "./pages/Dashboard.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
 import Home from "./pages/Home.jsx";
+import Interview from "./pages/Interview.jsx";
 
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
                 },
                 {
                     element: <ProtectedRoute><Interview/></ProtectedRoute>,
-                    path: "/interview/:interviewId",
+                    path: "/interview",
                 },
             ]
         }
